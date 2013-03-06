@@ -1,25 +1,39 @@
-COPYING:
-Copying and distribution of this file, with or without modification,
-are permitted in any medium without royalty provided the copyright
-notice and this notice are preserved.  This file is offered as-is,
-without any warranty.
-
-DESCRIPTION:
 Simpleburner - made to simplyfi CD/DVD burning under CLI.
 
+Copyright (C) 2009-2013 copyright sirmacik
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the 
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
 HOMEPAGE:
-<http://sirmacik.net/simpleburner/>
+http://simpleburner.sirmacik.net/
 
 DEPENDENCES:
 
-    * perl   - <http://www.perl.org>
     * cdrkit - <http://www.cdrkit.org/> or cdrtools - <http://cdrecord.berlios.de/>
 
 INSTALLATION:
 To get the source of simpleburnerer run:
-    $ git clone git://repo.or.cz/simpleburner.git
+    $ git clone git://github.com/sirmacik/simpleburner.git
 And then install with command:
-    # install -Dm simpleburner/simpleburner.pl /usr/bin/simpleburner
+    # install -Dm simpleburner/simpleburner.py /usr/bin/simpleburner
 
 OPTIONS:
     -h, --help        Displays help message
@@ -30,14 +44,13 @@ OPTIONS:
         --name        Path and/or name of iso image (by default ~/cd.iso)
     	--device      Device to use (default /dev/sr0)
         --speed       Burning speed (by default it will be autodetected)
-	--mode 	      Burning mode, available options are: TAO (default), DAO, SAO, RAW
+        --mode 	      Burning mode, available options are: TAO (default), DAO, SAO, RAW
 
 BUGS:
 If You've found any bugs or You've any idea how to improve simpleburner, 
 please report it by sending mail to simpleburner-bugs@googlegroups.com.
 
 LINKS:
-Mailing list: <http://groups.google.com/group/simpleburner-bugs>
 Project site at freshmeat <http://freshmeat.net/projects/simpleburner>
 Project site at sourceforge <http://sourceforge.net/projects/simpleburner/>
 
